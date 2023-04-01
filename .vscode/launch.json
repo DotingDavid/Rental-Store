@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Compile & Run C++",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "preLaunchTask": "Compile & Run C++",
+            "program": "${workspaceFolder}/movierental",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true
+        }
+    ]
+}
